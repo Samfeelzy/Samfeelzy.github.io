@@ -1,0 +1,93 @@
+body{
+    background-color: black;
+}
+
+header{
+    text-align: center;
+}
+
+.header{
+    background-color: rgb(134, 121, 121);
+    margin-top: -18px;
+    padding: 15px;
+}
+
+.container1, .container3, .container4,
+.container7, .container8, .container11, .container12 {
+    background-color: rgb(133, 176, 219);
+}
+
+.container2, .container5, .container6,
+.container9, .container10, .container13, .container14 {
+    background-color: rgb(105, 99, 90);
+}
+
+
+.container1 {
+    grid-area: a;
+}
+.container2 {
+    grid-area: b;
+}
+.container3 {
+    grid-area: c;
+}
+.container4 {
+    grid-area: d;
+}
+.container5 {
+    grid-area: e;
+}
+
+.container7 {
+    grid-area: g;
+}
+.container8 {
+    grid-area: h;
+}
+.container9 {
+    grid-area: i;
+}
+.container10 {
+    grid-area: j;
+}
+.container11 {
+    grid-area: k;
+}
+.container12 {
+    grid-area: l;
+}
+.container13 {
+    grid-area: m;
+}
+.container14 {
+    grid-area: n;
+}
+
+.grid-container{
+    display: grid;
+    grid-template-areas: 
+    'a'
+    'b'
+    'c'
+    'e'
+    'd'
+    'f'
+    'g'
+    'i'
+    'h'
+    'j'
+    'k'
+    'm'
+    'l'
+    'n';
+    grid-template-columns: 100%;
+    grid-template-rows: 1fr 1fr .2fr 1fr .2fr
+    1fr .2fr 1fr .2fr 1fr .2fr 1fr .2fr 1fr;
+    margin-bottom: 0 !important;
+}
+
+
+.myImg{
+    border-radius: 200px;
+}
