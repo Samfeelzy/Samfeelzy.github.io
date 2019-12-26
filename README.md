@@ -1,2 +1,2 @@
 # Samfeelzy.github.io
-CV web page
+My News Site
