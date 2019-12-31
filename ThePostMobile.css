@@ -53,6 +53,10 @@ body {
     transition: 0.3s
 }
 
+#pride {
+    display: none;
+}
+
 
 /* When you mouse over the navigation links, change their color */
 
