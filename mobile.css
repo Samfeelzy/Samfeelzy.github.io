@@ -48,7 +48,7 @@
         font-size: 30px;
         font-weight: 900;
         margin-left: 80%;
-        margin-top: -80px;
+        margin-top: -60px;
     }
     
     @media screen and (max-width: 390px) {
@@ -57,7 +57,7 @@
             font-size: 30px;
             font-weight: 900;
             margin-left: 70%;
-            margin-top: -80px;
+            margin-top: -60px;
         }
     }
     
