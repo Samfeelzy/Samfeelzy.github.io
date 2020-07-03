@@ -158,6 +158,27 @@
     .dropdown a {
         color: #000;
     }
+
+.butn {
+        background-color: rgb(0, 31, 39);
+        border-radius: 50px 0 50px 0;
+        outline: none;
+        display: block;
+        height: 50px;
+        margin-left: auto;
+        margin-right: auto;
+        width: 70%;
+    }
+    
+    .butn a {
+        text-decoration: none;
+        color: rgb(105, 98, 114);
+        font-size: 3em;
+    }
+    
+    .butn:hover {
+        background-color: lightslategrey;
+    }
     
     footer {
         background-color: rgb(27, 66, 104);
