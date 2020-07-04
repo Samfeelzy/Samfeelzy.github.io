@@ -116,6 +116,7 @@
     }
     
     .dropdown-content {
+        color: blanchedalmond;
         display: none;
         margin-top: 0rem;
         font-weight: 500;
