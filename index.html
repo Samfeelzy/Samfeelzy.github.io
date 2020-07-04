@@ -15,15 +15,14 @@
 <body>
     <div id="sideNavigation" class="sidenav navbar">
         <div class="closeBtn">
-            <a href=" javascript:void(0) " id="closebtn" onclick="closeNav() ">&times;</a>
+            <a href=" javascript:void(0) " id="closebtn" onclick="closeNav()">&times;</a>
         </div>
 
         <p id="sNavName">Philip</p>
-        <a href="Graphic_Comics.htm"> EDUCATION </a><br><br>
-        <a href="Novels.htm"> CARRER </a><br><br>
-        <a href="#blackadam.html "> TOOLS </a><br><br>
-        <a href="#health.html "> PROJECTS </a><br><br>
-        <a href="#others.html "> INTERESTS </a>
+        <a href="#education" onclick="closeNav()> EDUCATION </a><br><br>
+        <a href="#tools" onclick="closeNav()> TOOLS </a><br><br>
+        <a href="#projects" onclick="closeNav()> PROJECTS </a><br><br>
+        <a href="#interests" onclick="closeNav()> INTERESTS </a>
         <a href="https://www.twitter.com/Samfeelzy_" target="blank"> <img src="Images/twitter-logo-shape.svg" alt="" height="30px"> </a>
         <a href="https://telegram.me/Samfeelzy" target="blank"> <img src="Images/telegram-logo.svg" alt="" height="30px"> </a>
         <br>
@@ -73,7 +72,7 @@
 
 
 
-    <div class="dropdown">
+    <div id="education" class="dropdown">
         <button onclick="myEducation()" class="dropbtn"> EDUCATION </button>
         <img src="Images/book-shelf.png" alt="" height="80px">
         <p id="myDropdown" class="dropdown-content">
@@ -86,7 +85,7 @@
         </p>
     </div>
 
-    <div class="dropdown">
+    <div id="tools" class="dropdown">
         <button onclick="myTools()" class="dropbtn"> TOOLS </button>
         <img src="Images/tools.svg" alt="" height="80px">
         <p id="myDropdown2" class="dropdown-content"> <img id="htmlImage" src="Images/html5_dark.svg" alt="html 5" height="80px">
@@ -96,7 +95,7 @@
         </p>
     </div>
 
-    <div class="dropdown">
+    <div id="projects" class="dropdown">
         <button onclick="myProjects()" class="dropbtn"> PROJECTS </button>
         <img src="Images/activity.svg" alt="" height="80px">
         <p id="myDropdown3" class="dropdown-content">
@@ -104,7 +103,7 @@
         </p>
     </div>
 
-    <div class="dropdown">
+    <div id="interests" class="dropdown">
         <button onclick="myInterests()" class="dropbtn"> INTERESTS </button>
         <img src="Images/community.svg" alt="" height="80px">
         <p id="myDropdown4" class="dropdown-content">
