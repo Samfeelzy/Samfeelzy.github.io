@@ -173,8 +173,8 @@
     
     .butn a {
         text-decoration: none;
-        color: rgb(105, 98, 114);
-        font-size: 2em;
+        color: white;
+        font-size: 1.5em;
     }
     
     .butn:hover {
