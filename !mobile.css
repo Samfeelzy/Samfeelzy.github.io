@@ -1,0 +1,133 @@
+#mobile {
+    display: none;
+}
+
+html,
+body {
+    background-image: url(Images/a\ \(1\).jpg);
+    background-color: rgb(51, 51, 61);
+    margin: 0;
+    width: 100%;
+}
+
+.topnav {
+    background-color: rgb(34, 36, 44);
+    overflow: hidden;
+}
+
+.topnav a {
+    border-radius: 10px;
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 11px 6.5%;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+.topnav a:hover {
+    background-color: rgb(76, 86, 129);
+    color: black;
+}
+
+.NprofilePicture {
+    background: url(Images/ronoaldo-Black-Monitor.svg);
+    background-size: cover;
+    height: 27em;
+    width: 25em;
+    margin-left: 5%;
+    margin-top: 30px;
+}
+
+.pPImage {
+    margin-top: 60px;
+    border-radius: 50%;
+    margin-left: 110px;
+}
+
+.pPName {
+    margin-left: 430px;
+    margin-top: -150px;
+}
+
+.codingImage {
+    text-align: right;
+    margin-right: 5%;
+}
+
+.designImage {
+    margin-left: 5%;
+}
+
+.education {
+    margin-right: 5%;
+    text-align: right;
+}
+
+.tools {
+    text-align: center;
+}
+
+.projects {
+    margin-left: 5%;
+}
+
+.prj {
+    padding: 70px;
+}
+
+.projects a {
+    color: rgb(5, 4, 85);
+    font-size: 35px;
+    font-style: oblique;
+    font-weight: 900;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-decoration: none;
+}
+
+#schWeb {
+    color: floralwhite;
+    font-style: normal;
+    font-size: 25px;
+    margin-top: 0px;
+}
+
+#schWeb:hover {
+    color: rgb(83, 4, 50);
+}
+
+.interests {
+    padding: 70px;
+    text-align: right;
+    margin-right: 15%;
+    margin-top: 100px;
+}
+
+.interests a {
+    color: lightseagreen;
+    font-size: 30px;
+    text-decoration: none;
+    font-style: oblique;
+    font-weight: 900;
+}
+
+.ctact {
+    text-align: center;
+}
+
+.ctact a {
+    color: rgb(143, 188, 218);
+    font-size: 50px;
+    font-weight: 900;
+    text-decoration: none;
+}
+
+.ctact a:hover {
+    color: mediumvioletred;
+}
+
+.socialMe {
+    margin-top: -90px;
+    text-align: right;
+    margin-right: 5%;
+}
