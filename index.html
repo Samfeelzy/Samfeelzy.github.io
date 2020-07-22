@@ -9,123 +9,214 @@
     <title>Philip : Home</title>
 
     <link rel="stylesheet" href="mobile.css">
+    <link rel="stylesheet" href="!mobile.css" media="screen and (min-width:700px)">
     <script src="mobile.js"></script>
 </head>
 
 <body>
-    <div id="sideNavigation" class="sidenav navbar">
-        <div class="closeBtn">
-            <a href=" javascript:void(0) " id="closebtn" onclick="closeNav() ">&times;</a>
+    <div id="mobile">
+
+        <div id="sideNavigation" class="sidenav navbar">
+            <div class="closeBtn">
+                <a href=" javascript:void(0) " id="closebtn" onclick="closeNav() ">&times;</a>
+            </div>
+
+            <p id="sNavName">Philip</p>
+            <a href="#education" onclick="closeNav()"> EDUCATION </a><br><br>
+            <a href="#tools" onclick="closeNav()"> TOOLS </a><br><br>
+            <a href="#projects" onclick="closeNav()"> PROJECTS </a><br><br>
+            <a href="#interests" onclick="closeNav()"> INTERESTS </a>
+            <a href="https://www.twitter.com/Samfeelzy_" target="blank"> <img src="Images/twitter-logo-shape.svg" alt="" height="30px"> </a>
+            <a href="https://telegram.me/Samfeelzy" target="blank"> <img src="Images/telegram-logo.svg" alt="" height="30px"> </a>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
         </div>
 
-        <p id="sNavName">Philip</p>
-        <a href="#education" onclick="closeNav()"> EDUCATION </a><br><br>
-        <a href="#tools" onclick="closeNav()"> TOOLS </a><br><br>
-        <a href="#projects" onclick="closeNav()"> PROJECTS </a><br><br>
-        <a href="#interests" onclick="closeNav()"> INTERESTS </a>
-        <a href="https://www.twitter.com/Samfeelzy_" target="blank"> <img src="Images/twitter-logo-shape.svg" alt="" height="30px"> </a>
-        <a href="https://telegram.me/Samfeelzy" target="blank"> <img src="Images/telegram-logo.svg" alt="" height="30px"> </a>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-    </div>
-
-    <nav class="topnav">
-        <a href="# " onclick="openNav() ">
-            <svg width="30 " height="30 " id="icoOpen ">
+        <nav class="topnav">
+            <a href="# " onclick="openNav() ">
+                <svg width="30 " height="30 " id="icoOpen ">
                <path d="M0,5 30,5 " stroke="#FFF " stroke-width="5 "/>
                <path d="M0,14 30,14 " stroke="#FFF " stroke-width="5 "/>
                <path d="M0,23 30,23 " stroke="#FFF " stroke-width="5 "/>
             </svg>
-        </a>
-    </nav>
-    <br>
-    <br>
+            </a>
+        </nav>
+        <br>
+        <br>
 
 
 
-    <div class="profilePicture">
-        <img src="Images/Jesuloluwa.png" alt="profle picture" height="200px">
-    </div>
+        <div class="profilePicture">
+            <img src="Images/Jesuloluwa.png" alt="profle picture" height="200px">
+        </div>
 
-    <div class="name">
-        <p>
-            Philip Samuel
-        </p>
-    </div>
+        <div class="name">
+            <p>
+                Philip Samuel
+            </p>
+        </div>
 
-    <div class="socialMe">
-        <a href="https://www.twitter.com/Samfeelzy_" target="blank"> <img src="Images/twitter-logo-shape.svg" alt="" height="30px"> </a>
-        <a href="https://telegram.me/Samfeelzy" target="blank"> <img src="Images/telegram-logo.svg" alt="" height="30px"> </a>
+        <div class="socialMe">
+            <a href="https://www.twitter.com/Samfeelzy_" target="blank"> <img src="Images/twitter-logo-shape.svg" alt="" height="30px"> </a>
+            <a href="https://telegram.me/Samfeelzy" target="blank"> <img src="Images/telegram-logo.svg" alt="" height="30px"> </a>
 
-    </div>
+        </div>
 
-    <div class="webDeveloper">
+        <div class="webDeveloper">
 
-        <img src="Images/light.png" alt="description as web and graphics designer">
+            <img src="Images/light.png" alt="description as web and graphics designer">
 
-    </div>
+        </div>
 
 
 
-    <div id="education" class="dropdown">
-        <button onclick="myEducation()" class="dropbtn"> EDUCATION </button>
-        <img src="Images/book-shelf.png" alt="" height="80px">
-        <p id="myDropdown" class="dropdown-content">
-            <span class="header">
+        <div id="education" class="dropdown">
+            <button onclick="myEducation()" class="dropbtn"> EDUCATION </button>
+            <img src="Images/book-shelf.png" alt="" height="80px">
+            <p id="myDropdown" class="dropdown-content">
+                <span class="header">
                 Tertiary Education
             </span>
-            <br> University of Lagos, Lagos, Nigeria.
-            <br> Graduated with B.Sc in Marine Biology.
-            <br> 2015 - 2019.
-        </p>
+                <br> University of Lagos, Lagos, Nigeria.
+                <br> Graduated with B.Sc in Marine Biology.
+                <br> 2015 - 2019.
+            </p>
+        </div>
+
+        <div id="tools" class="dropdown">
+            <button onclick="myTools()" class="dropbtn"> TOOLS </button>
+            <img src="Images/tools.svg" alt="" height="80px">
+            <p id="myDropdown2" class="dropdown-content"> <img id="htmlImage" src="Images/html5_dark.svg" alt="html 5" height="80px">
+                <img id="cssImage" src="Images/css-3.svg" alt="css 3" height="80px">
+                <img id="javascriptImage" src="Images/javascript.svg" alt="javascript" height="80px">
+                <img id="cinema4DImage" src="Images/cinema4d.png" alt="cinema 4d" height="80px">
+            </p>
+        </div>
+
+        <div id="projects" class="dropdown">
+            <button onclick="myProjects()" class="dropbtn"> PROJECTS </button>
+            <img src="Images/activity.svg" alt="" height="80px">
+            <p id="myDropdown3" class="dropdown-content">
+                <a href="http://jesuloba-edu.github.io" target="_blank" rel="noopener noreferrer"> A School Website  </a>
+            </p>
+        </div>
+
+        <div id="interests" class="dropdown">
+            <button onclick="myInterests()" class="dropbtn"> INTERESTS </button>
+            <img src="Images/community.svg" alt="" height="80px">
+            <p id="myDropdown4" class="dropdown-content">
+                <img src="Images/intr1.svg" alt="images depecting interests" width="200px" height="250px">
+            </p>
+        </div>
+
+        <div class="butn">
+            <a href="ContactFrom_v4/ContactFrom_v4/index.html" target="_blank" rel="noopener noreferrer">
+                <p> Contact Me </p>
+            </a>
+        </div>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+
+
+        <footer>
+            <p>
+                Milky Way, Near Alpha Centuari, Terra.
+            </p>
+        </footer>
+
     </div>
 
-    <div id="tools" class="dropdown">
-        <button onclick="myTools()" class="dropbtn"> TOOLS </button>
-        <img src="Images/tools.svg" alt="" height="80px">
-        <p id="myDropdown2" class="dropdown-content"> <img id="htmlImage" src="Images/html5_dark.svg" alt="html 5" height="80px">
-            <img id="cssImage" src="Images/css-3.svg" alt="css 3" height="80px">
-            <img id="javascriptImage" src="Images/javascript.svg" alt="javascript" height="80px">
-            <img id="cinema4DImage" src="Images/cinema4d.png" alt="cinema 4d" height="80px">
-        </p>
+    <div id="Nmobile">
+
+        <div class="topnav">
+            <a class="active" href="#edu">EDUCATION</a>
+            <a href="#tls">TOOLS</a>
+            <a href="#prjcts">PROJECTS</a>
+            <a href="#int">INTERESTS</a>
+        </div>
+
+        <div class="NprofilePicture">
+            <img src="Images/Jesuloluwa.png" class="pPImage" alt="profle picture" height="200px">
+            <img src="Images/NpPName.svg" class="pPName" alt="profle picture name" height="300px">
+        </div>
+
+        <div class="socialMe">
+            <a href="https://www.twitter.com/Samfeelzy_" target="blank"> <img src="Images/twitter (1).svg" alt="" height="50px"> </a>
+            <a href="https://telegram.me/Samfeelzy" target="blank"> <img src="Images/telegram.svg" alt="" height="50px"> </a>
+        </div>
+
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+
+        <div class="codingImage">
+            <!--<div>Icons made by <a href="https://www.flaticon.com/authors/freepik" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></div>-->
+            <img src="Images/coding.svg" alt="coding picture" height="300px">
+        </div>
+
+        <div class="designImage">
+            <!--<div>Icons made by <a href="https://www.flaticon.com/authors/freepik" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></div>-->
+            <img src="Images/printer.svg" alt="design picture" height="300px">
+        </div>
+
+        <div id="edu" class="education">
+            <a href="#education">
+                <img src="Images/education.svg" alt="" width="400px" height="400px">
+            </a>
+        </div>
+
+        <div id="tls" class="tools">
+            <a href="#tools">
+                <img src="Images/tls.svg" alt="" width="670px" height="670px">
+            </a>
+        </div>
+
+
+        <div id="prjcts" class="projects">
+            <a href="#projects">
+                <p class="prj"> PROJECTS </p>
+            </a>
+            <a href="http://jesuloba-edu.github.io" target="blank" id="schWeb"> A School Website </a>
+
+        </div>
+
+        <div id="int" class="interests">
+            <a href="#interests"> INTERESTS </a>
+            <div>
+                <img src="Images/intr.svg" alt="images depecting interests" width="500px" height="500px">
+
+            </div>
+        </div>
+
+        <div class="ctact">
+            <a href="ContactFrom_v4/ContactFrom_v4/index.html" target="_blank" rel="noopener noreferrer">
+                Contact Me
+            </a>
+        </div>
+
+        <footer>
+            <p>
+                Milky Way, Near Alpha Centuari, Terra.
+            </p>
+        </footer>
+
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+
     </div>
-
-    <div id="projects" class="dropdown">
-        <button onclick="myProjects()" class="dropbtn"> PROJECTS </button>
-        <img src="Images/activity.svg" alt="" height="80px">
-        <p id="myDropdown3" class="dropdown-content">
-            <a href="http://jesuloba-edu.github.io" target="_blank" rel="noopener noreferrer"> A School Website  </a>
-        </p>
-    </div>
-
-    <div id="interests" class="dropdown">
-        <button onclick="myInterests()" class="dropbtn"> INTERESTS </button>
-        <img src="Images/community.svg" alt="" height="80px">
-        <p id="myDropdown4" class="dropdown-content">
-            ...
-        </p>
-    </div>
-
-    <button class="butn"> <a href="ContactFrom_v4/index.html" target="_blank" rel="noopener noreferrer"> Contact Me </a></button>
-
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-
-
-    <footer>
-        <p>
-            Milky Way, Near Alpha Centuari, Terra.
-        </p>
-    </footer>
-
 </body>
 
 </html>
