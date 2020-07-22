@@ -1,4 +1,4 @@
-    @media screen and (min-width: 0) {
+@media screen and (min-width: 0) {
     #Nmobile {
         display: none;
     }
@@ -170,16 +170,6 @@ body {
 
 .dropdown a {
     color: rgb(250, 240, 240);
-}
-
-.butn {
-    border-radius: 50px 0 50px 0;
-    outline: none;
-    display: block;
-    height: 50px;
-    margin-left: auto;
-    margin-right: auto;
-    width: 70%;
 }
 
 .butn a {
