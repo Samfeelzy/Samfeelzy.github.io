@@ -9,9 +9,9 @@
    xmlns="http://www.w3.org/2000/svg"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-   width="210mm"
-   height="297mm"
-   viewBox="0 0 210 297"
+   width="289.38617mm"
+   height="43.903828mm"
+   viewBox="0 0 289.38617 43.903828"
    version="1.1"
    id="svg8"
    sodipodi:docname="NpPName.svg"
@@ -26,8 +26,8 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="0.35"
-     inkscape:cx="350"
-     inkscape:cy="560"
+     inkscape:cx="278.5504"
+     inkscape:cy="-240.48756"
      inkscape:document-units="mm"
      inkscape:current-layer="layer1"
      showgrid="false"
@@ -35,7 +35,11 @@
      inkscape:window-height="745"
      inkscape:window-x="-8"
      inkscape:window-y="-8"
-     inkscape:window-maximized="1" />
+     inkscape:window-maximized="1"
+     fit-margin-top="0"
+     fit-margin-left="0"
+     fit-margin-right="0"
+     fit-margin-bottom="0" />
   <metadata
      id="metadata5">
     <rdf:RDF>
@@ -44,16 +48,18 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
       </cc:Work>
     </rdf:RDF>
   </metadata>
   <g
      inkscape:label="Layer 1"
      inkscape:groupmode="layer"
-     id="layer1">
+     id="layer1"
+     transform="translate(-5.6752063,-41.300503)">
     <text
        xml:space="preserve"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:40.98281479px;line-height:1.25;font-family:Forte;-inkscape-font-specification:'Forte, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#aa4400;fill-opacity:1;stroke:none;stroke-width:1.097754;"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:40.98281479px;line-height:1.25;font-family:Forte;-inkscape-font-specification:'Forte, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#aa4400;fill-opacity:1;stroke:none;stroke-width:1.097754"
        x="5.8821321"
        y="60.914989"
        id="text12"
@@ -62,6 +68,6 @@
          id="tspan10"
          x="5.8821321"
          y="60.914989"
-         style="stroke-width:1.097754;fill:#aa4400;">Philip Samuel</tspan></text>
+         style="fill:#aa4400;stroke-width:1.097754">Jesuloluwa Solanke</tspan></text>
   </g>
 </svg>
