@@ -9,9 +9,9 @@
    xmlns="http://www.w3.org/2000/svg"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-   width="289.38617mm"
-   height="43.903828mm"
-   viewBox="0 0 289.38617 43.903828"
+   width="152.55879mm"
+   height="31.052641mm"
+   viewBox="0 0 152.55879 31.052641"
    version="1.1"
    id="svg8"
    sodipodi:docname="NpPName.svg"
@@ -27,7 +27,7 @@
      inkscape:pageshadow="2"
      inkscape:zoom="0.35"
      inkscape:cx="228.5504"
-     inkscape:cy="-240.48756"
+     inkscape:cy="-240.48755"
      inkscape:document-units="mm"
      inkscape:current-layer="layer1"
      showgrid="false"
@@ -48,7 +48,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title />
+        <dc:title></dc:title>
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -56,7 +56,7 @@
      inkscape:label="Layer 1"
      inkscape:groupmode="layer"
      id="layer1"
-     transform="translate(-5.6752063,-41.300503)">
+     transform="translate(-5.6752065,-54.151692)">
     <text
        xml:space="preserve"
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:25.02531815px;line-height:1.25;font-family:Forte;-inkscape-font-specification:'Forte, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#aa4400;fill-opacity:1;stroke:none;stroke-width:0.67032105"
