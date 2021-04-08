@@ -9,9 +9,9 @@
    xmlns="http://www.w3.org/2000/svg"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-   width="152.55879mm"
-   height="31.052641mm"
-   viewBox="0 0 152.55879 31.052641"
+   width="65.624275mm"
+   height="19.713354mm"
+   viewBox="0 0 65.624274 19.713354"
    version="1.1"
    id="svg8"
    sodipodi:docname="NpPName.svg"
@@ -27,7 +27,7 @@
      inkscape:pageshadow="2"
      inkscape:zoom="0.35"
      inkscape:cx="228.5504"
-     inkscape:cy="-240.48755"
+     inkscape:cy="-240.48756"
      inkscape:document-units="mm"
      inkscape:current-layer="layer1"
      showgrid="false"
@@ -56,18 +56,18 @@
      inkscape:label="Layer 1"
      inkscape:groupmode="layer"
      id="layer1"
-     transform="translate(-5.6752065,-54.151692)">
+     transform="translate(-5.6752065,-65.490977)">
     <text
        xml:space="preserve"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:25.02531815px;line-height:1.25;font-family:Forte;-inkscape-font-specification:'Forte, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#aa4400;fill-opacity:1;stroke:none;stroke-width:0.67032105"
-       x="7.4817524"
-       y="54.400738"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:13.07748508px;line-height:1.25;font-family:Forte;-inkscape-font-specification:'Forte, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#aa4400;fill-opacity:1;stroke:none;stroke-width:0.35028979"
+       x="9.6050987"
+       y="46.095272"
        id="text12"
-       transform="scale(0.68981562,1.4496627)"><tspan
+       transform="scale(0.5678265,1.7611013)"><tspan
          sodipodi:role="line"
          id="tspan10"
-         x="7.4817524"
-         y="54.400738"
-         style="fill:#aa4400;stroke-width:0.67032105">Jesuloluwa Solanke</tspan></text>
+         x="9.6050987"
+         y="46.095272"
+         style="fill:#aa4400;stroke-width:0.35028979">Jesuloluwa Solanke</tspan></text>
   </g>
 </svg>
