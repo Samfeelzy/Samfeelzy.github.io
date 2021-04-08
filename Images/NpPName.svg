@@ -9,9 +9,9 @@
    xmlns="http://www.w3.org/2000/svg"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-   width="1.7549324mm"
-   height="0.57624429mm"
-   viewBox="0 0 1.7549324 0.57624429"
+   width="0.17730972"
+   height="0.039248805"
+   viewBox="0 0 0.046913197 0.010384579"
    version="1.1"
    id="svg8"
    sodipodi:docname="NpPName.svg"
@@ -25,9 +25,9 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="22.4"
-     inkscape:cx="8.9566008"
-     inkscape:cy="5.7412753"
+     inkscape:zoom="256"
+     inkscape:cx="0.34852367"
+     inkscape:cy="-0.042884533"
      inkscape:document-units="mm"
      inkscape:current-layer="layer1"
      showgrid="false"
@@ -39,7 +39,8 @@
      fit-margin-top="0"
      fit-margin-left="0"
      fit-margin-right="0"
-     fit-margin-bottom="0" />
+     fit-margin-bottom="0"
+     units="px" />
   <metadata
      id="metadata5">
     <rdf:RDF>
@@ -56,18 +57,18 @@
      inkscape:label="Layer 1"
      inkscape:groupmode="layer"
      id="layer1"
-     transform="translate(-5.675207,-84.628086)">
+     transform="translate(-6.5699335,-84.974711)">
     <text
        xml:space="preserve"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:0.36563286px;line-height:1.25;font-family:Forte;-inkscape-font-specification:'Forte, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#aa4400;fill-opacity:1;stroke:none;stroke-width:0.00979374"
-       x="10.438504"
-       y="46.211704"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:0.00802516px;line-height:1.25;font-family:Forte;-inkscape-font-specification:'Forte, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#aa4400;fill-opacity:1;stroke:none;stroke-width:0.00021496"
+       x="9.9319334"
+       y="56.214539"
        id="text12"
-       transform="scale(0.54311347,1.8412359)"><tspan
+       transform="scale(0.66148001,1.5117615)"><tspan
          sodipodi:role="line"
          id="tspan10"
-         x="10.438504"
-         y="46.211704"
-         style="fill:#aa4400;stroke-width:0.00979374">Jesuloluwa Solanke</tspan></text>
+         x="9.9319334"
+         y="56.214539"
+         style="fill:#aa4400;stroke-width:0.00021496">Jesuloluwa Solanke</tspan></text>
   </g>
 </svg>
