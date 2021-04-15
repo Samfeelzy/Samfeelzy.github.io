@@ -40,7 +40,8 @@
         color: white;
         width: 0;
         display: inline-block;
-        transition: 0.5s linear;
+        transition-property: width;
+        transition-duration: 2s;
         opacity: 0;
     }
     
