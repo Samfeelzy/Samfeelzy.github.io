@@ -1,0 +1,133 @@
+    * {
+        box-sizing: border-box;
+    }
+    
+    body {
+        background: #403B4A;
+        /* fallback for old browsers */
+        background: -webkit-linear-gradient(to right, #0b3f7a, #157eac);
+        /* Chrome 10-25, Safari 5.1-6 */
+        background: linear-gradient(to right, #281f3b, #365072);
+        /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    }
+    /* The Whole To-Do Body */
+    
+    #list {
+        margin: 100px auto;
+        width: 350px;
+        background-color: #f7f7f7;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 1);
+    }
+    /* Styling for the Head */
+    
+    #head {
+        color: beige;
+        background-color: rgb(75, 75, 189);
+        padding: .1px 10px;
+        margin: 0;
+    }
+    
+    .fa-plus {
+        float: right;
+        margin-right: 10px;
+    }
+    
+    span {
+        background-color: #e74c3c;
+        height: 40px;
+        margin-right: 20px;
+        text-align: center;
+        color: white;
+        width: 0;
+        display: inline-block;
+        transition: 0.5s linear;
+        opacity: 0;
+    }
+    
+    li:hover span {
+        width: 40px;
+        opacity: 1.0;
+    }
+    
+    i:hover {
+        color: rgb(2, 16, 29);
+    }
+    
+    h3 {
+        text-transform: uppercase;
+    }
+    /* Styling for Input */
+    
+    input {
+        background-color: rgb(219, 215, 211);
+        padding: 13px 13px 13px 20px;
+        outline-color: rgb(18, 142, 180);
+        color: rgb(6, 42, 97);
+        border: 3px solid rgba(0, 0, 0, 0);
+        width: 100%;
+    }
+    
+    input:focus {
+        background-color: rgb(180, 161, 161);
+    }
+    
+     ::placeholder {
+        color: rgb(129, 129, 134);
+        font-size: .8em;
+        font-family: cursive;
+    }
+    
+     ::-webkit-input-placeholder {
+        /* Chrome/Opera/Safari */
+        color: blue;
+    }
+    
+     ::-moz-placeholder {
+        /* Firefox 19+ */
+        color: blue;
+    }
+    
+     :-ms-input-placeholder {
+        /* IE 10+ */
+        color: blue;
+    }
+    
+     :-moz-placeholder {
+        /* Firefox 18- */
+        color: blue;
+    }
+    /* The Todo Lists*/
+    
+    ul {
+        list-style-type: none;
+        font-family: cursive;
+        font-size: small;
+        margin: 0;
+        padding: 0;
+    }
+    
+    li {
+        background-color: #fff;
+        height: 40px;
+        line-height: 40px;
+    }
+    
+    li:nth-child(2n) {
+        background-color: #cecccc;
+    }
+    /*__________T0 be Used in Js______________________________*/
+    
+    .crossOut {
+        text-decoration: line-through;
+        opacity: .5;
+    }
+    
+    .iStyle {
+        font-family: cursive;
+        font-size: .8em;
+    }
+    
+    .toggleButton {
+        color: green;
+    }
+    /*alert*/
